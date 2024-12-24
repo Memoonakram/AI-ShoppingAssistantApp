@@ -1,0 +1,35 @@
+#sidebar a.active{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-bottom: 2px solid #6366f1;
+    background-color: rgba(79, 70, 229, .25);
+}
+#sidebar a.active:is(.dark *) {
+  background-color: #313e59;
+}
+.form-select option:is(.dark *){
+  background-color: #26334d;
+  color: #C2C9D6;
+}
+:disabled{
+  cursor: not-allowed;
+}
+.dark\:invert-75:is(.dark *) {
+  filter: invert(75%);
+}
+.tab-active {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border-bottom: 2px solid #6366f1;
+  background-color: rgba(79, 70, 229, .25);
+}
+.tab-active:is(.dark *) {
+background-color: #313e59;
+}
+.bg-F-character{
+  background: linear-gradient(270deg, #67346C 0%, #D379E9 40%, #D379E9 60%, #67346C 100%);
+}
+.bg-M-character{
+  background: linear-gradient(270deg, #283F6C 0%, #639BC3 40%, #639BC3 60%, #283F6C 100%);
+}
+.align-super{
+  vertical-align: super !important;
+}
