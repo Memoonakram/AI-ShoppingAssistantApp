@@ -10,6 +10,7 @@ An AI-powered web application paired with a Chrome extension that helps users ma
 
 ## Technical Stack
 
+- **Frontend**: JavaScript (React framework)
 - **Backend**: Python (Flask or Django)
 - **AI Model**: TensorFlow or PyTorch for size recommendation
 - **Browser Extension**: Real-time communication via Socket.IO
