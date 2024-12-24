@@ -1,6 +1,6 @@
 # AI-Powered Shopping Assistant
 
-An AI-powered web application paired with a Chrome extension that helps users make informed online shopping decisions based on their personal measurements.
+An AI-powered web application paired with a Chrome extension that helps users make informed online shopping decisions based on their measurements.
 
 ## Features
 
@@ -10,7 +10,7 @@ An AI-powered web application paired with a Chrome extension that helps users ma
 
 ## Technical Stack
 
-- **Frontend**: JavaScript (React or similar framework)
 - **Backend**: Python (Flask or Django)
 - **AI Model**: TensorFlow or PyTorch for size recommendation
+- **Frontend**: JavaScript (React or similar framework)
 - **Browser Extension**: Real-time communication via Socket.IO
