@@ -1,0 +1,270 @@
+.alex-brush-regular {
+  font-family: "Alex Brush", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+.text-white {
+  color: white;
+}
+
+.letter-spacing-1 {
+  letter-spacing: 0.75em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.mx-2{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.mx-5{
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.ml-2 {
+  margin-left: 0.5rem;
+}
+.ml-3 {
+  margin-left: 0.75rem;
+}
+.ml-4 {
+  margin-left: 1rem;
+}
+.ml-5 {
+  margin-left: 1.25rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.\-translate-y-50\% {
+  transform: translateY(-50%);
+}
+
+.rounded-lg {
+  border-radius: 5rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-indigo-500 {
+  background-color: #6366f1;
+}
+
+.border-white {
+  border-color: white;
+}
+
+meter {
+  width: 100%;
+}
+
+meter::-webkit-meter-bar {
+  background: #ddd;
+}
+
+meter::-webkit-meter-optimum-value {
+  background: green;
+}
+
+meter::-webkit-meter-suboptimum-value {
+  background: orange;
+}
+
+meter::-webkit-meter-even-less-good-value {
+  background: red;
+}
+
+meter::-moz-meter-bar {
+  background: #ddd;
+}
+
+meter[value="75"]::-moz-meter-optimum::-moz-meter-bar {
+  background: green;
+}
+
+meter[value="25"]::-moz-meter-suboptimum::-moz-meter-bar {
+  background: orange
+}
+
+meter[value="0"]::-moz-meter-very-low::-moz-meter-bar {
+  background: red;
+}
+
+.min-height-3 {
+  min-height: 5rem;
+}
+
+.col-8{
+  width: 66.66667%;
+}
+
+.col-4{
+  width: 33.33333%;
+}
+
+.col-12{
+  width: 100%;
+}
+
+.m-0{
+  margin: 0;
+}
+
+.p-0{
+  padding: 0;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.w-6{
+  width: 1.5rem;
+}
+.w-8{
+  width: 2rem;
+}
+.h-6{
+  height: 1.5rem;
+}
+.h-8{
+  height: 2rem;
+}
+.bg-red-500{
+  background-color: #f56565;
+}
+.bg-red-600{
+  background-color: #e53e3e;
+}
+.fav-btn{
+  border: none;
+  background-color: transparent;
+}
+.btn-recommended{
+  background-color: #F96A03;
+}
+.btn-stockwatch{
+  background-color: #43E229;
+}
+.btn-recommended, .btn-stockwatch{
+  border: none;
+  border-radius: 0.5rem;
+}
+button svg{
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.5rem;
+}
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.fade-btn{
+  opacity: 0.6;
+}
+
+:disabled{
+  cursor: not-allowed;
+  color: black;
+}
+
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-50{
+  top: 50%;
+}
+.left-50{
+  left: 50%;
+}
+.transform-translate-x-y-50{
+  transform: translate(-50%, -50%);
+}
+
+.bg-black\/20{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.w-full{
+  width: 100%;
+}
+.h-full{
+  height: 100%;
+}
+.-mt-4{
+  margin-top: -1rem;
+}
+
+.no-link{
+  text-decoration: none;
+}
+.-mt-2{
+  margin-top: -0.5rem;
+}
