@@ -12,5 +12,5 @@ An AI-powered web application paired with a Chrome extension that helps users ma
 
 - **Backend**: Python (Flask or Django)
 - **AI Model**: TensorFlow or PyTorch for size recommendation
-- **Frontend**: JavaScript (React or similar framework)
 - **Browser Extension**: Real-time communication via Socket.IO
+  
